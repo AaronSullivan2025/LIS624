@@ -18,3 +18,10 @@ Here are some habits that make your documentation reproducible and useful:
     7. Include a verification step that proves the change worked.
     8. Avoid secrets: do not paste API keys, passwords, or private tokens.
 
+
+#Adding New Section
+
+Weeeeeee.......
+
+New Section
+
