@@ -1,32 +1,15 @@
 # LIS624
-## Repository for Work Related to _LIS 624_ Class 
+## This is the ongoing repository for my work related to my _LIS 624_ class 
 
-I just copied over the documentation guides:
+---
+---
+### 2026-02-06 - **Documenting with GitHub, Git, and Markdown**
 
-### Documentation Best Practices
+**Goal**:  Practice with material presented in Module 2.4  
+**Context**:  Meet the listed PASS requirments for the related assignment  
+**Steps**:  As listed in our online presentation  
+**Results**:  Successful on all fronts, including multiple whimsical changes and formattings, reformattings, and the more reformatting of this README file.  
+**Verifications**:  Tested as per the steps listed in our documentation and no issues thus far. Yay me.  
+**Notes**:  I chose to use nano as the text editor since more likely than not that's what most employers and organizations would fall back on as the default offering.  
 
-*Good* documentation does more than list commands. It explains what you did, why you did it, and what changed. Write for your future self, who will not remember the details weeks from now.
-
-Here are some habits that make your documentation reproducible and useful:
-
-    1. Start each entry with the date and a clear goal or question.
-    2. Create a new Markdown file for each topic or task so your notes stay focused and easy to find later.
-    3. Add a short narrative: what you were trying to do and why it mattered.
-    4. Capture the environment: VM name, OS version, tool versions, and project names.
-    5. Record the steps with commands and important output lines or error messages.
-    6. Note what changed: files edited, paths, configuration snippets, and decisions made.
-    7. Include a verification step that proves the change worked.
-    8. Avoid secrets: do not paste API keys, passwords, or private tokens.
-
-
-#Adding New Section
-
-Weeeeeee.......
-
-New Section
-
-#And Again
-
-Now I'm just playing around
-
-Now let's test that PULL command
+---
