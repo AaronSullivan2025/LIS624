@@ -1,8 +1,11 @@
 # Server Setup Documentation  
-
-The LAMP stack is a software combination used to create and support websites and their interacting applications. It’s built from four layers, namely **L**inux (the operating system), **A**pache (the web server), **M**ySQL (the database), and **P**HP (the programming language used to shuttle commands and resources between the components). It’s commonly used because it’s Open-Source (i.e., free), reliable, flexible, easy to deploy, and has a large community support system to use.  
   
-*As with all our projects, I start each install by making sure my machine was fully updated by running through the necessry code in my BASH shell:*  
+The LAMP stack is a software combination used to create and support websites and their interacting applications. It’s built from four layers, namely **L**inux (the operating system), **A**pache (the web server), **M**ySQL (the database), and **P**HP (the programming language used to shuttle commands and resources between the components). It’s commonly used because it’s Open-Source (i.e., free), reliable, flexible, easy to deploy, and has a large community support system to use.  
+
+
+# Installations 
+  
+*As with all our projects, I start each install by making sure my machine is fully updated by running through the necessary code in my BASH shell:*  
 ```  
 sudo apt update  
 sudo apt upgrade  
@@ -10,7 +13,7 @@ sudo apt autoremove
 sudo apt clean  
 ```
 
-## APACHE
+## Installing APACHE
 Searched for and installed Apache:
 
 `apt search apache2 | head`  
@@ -22,7 +25,7 @@ Checked the status info with “systemctl” for output showing “enabled” an
 Created HTML page to verify everything worked and webpage showed HTML output as expected. 
 
 
-## PHP  
+## Installing PHP  
 My first step was to install php and its modules: `sudo apt install php libapache2-mod-php`  
 
 I then restarted Apache with:  `sudo systemctl restart apache2`  
@@ -76,7 +79,7 @@ I verified by navigating my browser to my page— `http://34.171.47.114/`  — a
   
   
 
-## MySQL  
+## Installing MySQL  
 I installed MySQL server and after installing, confirmed the version:  
 
 ```
@@ -212,6 +215,14 @@ sudo php -f /var/www/html/opac.php
 I viewed the site from my browser by opening the public IP address for my server. It showed me the data in my opacdb database and books table rendered in my webpage.  
 
 
+## Issues  
+
+As my install steps have shown, I have encountered few if any errors. 
+
+(1) With the Apache Server install, I had to go back and adjust my local host navigation as "elinks http://localhost" having stupidly omitted the "http://" originally.  
+  
+(2) With the MySQL install I ran into a memory problem where, for some unfathomable reason, the machine kept telling me I had a full virtual disc (96% full, anyway) and couldn't continue with the install once I reached the point where I was adding the php-MySQl connections. To fix it, I eventually had to uninstall the whole MySQL arrangement and then reinstall from the beginning. This appeared to have fixed the problem as I encountered no such hassles the second time through.  
+  
 
 ## Links
 [Link to index.php page on Ubuntu Server](http://34.171.47.114/index.php)  
