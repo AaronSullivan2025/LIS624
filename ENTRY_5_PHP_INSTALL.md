@@ -1,6 +1,6 @@
-# 2026-02-28 – Installing Apache Server
+# 2026-02-28 – Installing PHP
 
-**Goal:** Learn commands and usage surrounding the installation of the Apache server  
+**Goal:** Learn commands and usage surrounding the installation of PHP 
 
 **Context:** Meet the listed PASS requirements for the related assignment  
 
