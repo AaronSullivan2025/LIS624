@@ -225,7 +225,7 @@ As my install steps have shown, I have encountered few if any errors.
   
 
 ## Links
-[Link to index.php page on Ubuntu Server](http://34.171.47.114/index.php)  
+[Link to index.php page on Ubuntu Server](http://34.41.8.169/index.php)  
   
-[Link to opac.php page on Ubuntu Server](http://34.171.47.114/opac.php)  
+[Link to opac.php page on Ubuntu Server](http://34.41.8.169/opac.php)  
   
